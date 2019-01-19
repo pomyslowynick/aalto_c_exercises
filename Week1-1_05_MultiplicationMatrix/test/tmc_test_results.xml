@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:09</datetime>
+  <suite>
+    <title>multiplymatrix</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:29</fn>
+      <id>test_multiply_matrix</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_multiply_matrix</description>
+      <message>Your output:
+
+Right output:
+1	2	3	4	5	
+2	4	6	8	10	
+3	6	9	12	15	
+4	8	12	16	20	
+5	10	15	20	25	
+
+output correct until position: 1, line: 1, but shorter than expected. Next character should be &apos;1&apos;
+
+ (Hint: Use tab also after the last column)
+</message>
+    </test>
+  </suite>
+  <duration>0.013932</duration>
+</testsuites>

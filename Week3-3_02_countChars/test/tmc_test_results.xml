@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:20</datetime>
+  <suite>
+    <title>FunWithFiles tests</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:21</fn>
+      <id>test_character_counting_with_empty_file</id>
+      <iteration>0</iteration>
+      <duration>0.000039</duration>
+      <description>test_character_counting_with_empty_file</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_fun_with_files.c:28</fn>
+      <id>test_character_counting_with_file_containing_three_characters_including_newline</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_character_counting_with_file_containing_three_characters_including_newline</description>
+      <message>File named three_characters has exactly 3 characters, including a newline.</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_fun_with_files.c:35</fn>
+      <id>test_chraracter_counting_with_file_containing_6_characters_including_spaces_on_three_lines</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_chraracter_counting_with_file_containing_6_characters_including_spaces_on_three_lines</description>
+      <message>File contains exactly 6 characters. Check that your function take into account line spaces and newlines.</message>
+    </test>
+  </suite>
+  <duration>0.003416</duration>
+</testsuites>

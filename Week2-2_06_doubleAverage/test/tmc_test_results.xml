@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:16</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_mathfuncs.c:12</fn>
+      <id>average_works_for_one_number</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>average_works_for_one_number</description>
+      <message>Assertion &apos;average(x, 1) == 1.0&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_mathfuncs.c:21</fn>
+      <id>average_works_for_two_positive_numbers</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>average_works_for_two_positive_numbers</description>
+      <message>Assertion &apos;average(array, 2) == 4.0&apos; failed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:30</fn>
+      <id>average_works_when_it_has_negative_arguments</id>
+      <iteration>0</iteration>
+      <duration>0.000039</duration>
+      <description>average_works_when_it_has_negative_arguments</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_mathfuncs.c:42</fn>
+      <id>average_works_with_four_arguments</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>average_works_with_four_arguments</description>
+      <message>Average should work with array 10 11 19 19 by being about 14.75</message>
+    </test>
+  </suite>
+  <duration>0.005830</duration>
+</testsuites>

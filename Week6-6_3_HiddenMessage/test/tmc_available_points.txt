@@ -1,0 +1,5 @@
+[test] [test_read_msg] hide_readmsg
+[test] [test_read_pixel_offset] hide_read_pixel
+[test] [test_read_uint32] hide_readint
+[test] [test_extract_byte] hide_extract
+[test] [test_read_lsb] hide_read_lsb

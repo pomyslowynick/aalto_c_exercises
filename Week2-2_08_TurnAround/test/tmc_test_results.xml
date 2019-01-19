@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:17</datetime>
+  <suite>
+    <title>TurnAround</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:35</fn>
+      <id>test_turn_around</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_turn_around</description>
+      <message>[Task 6.1.a] Reversing string &apos;testi&apos; should result &apos;itset&apos;. You produced: &apos;testi&apos;</message>
+    </test>
+  </suite>
+  <duration>0.001225</duration>
+</testsuites>

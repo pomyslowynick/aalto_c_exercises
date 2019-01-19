@@ -1,0 +1,3 @@
+[test] [test_chraracter_counting_with_file_containing_6_characters_including_spaces_on_three_lines] countingfile
+[test] [test_character_counting_with_file_containing_three_characters_including_newline] countingfile
+[test] [test_character_counting_with_empty_file] countingfile

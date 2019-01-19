@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:45</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:15</fn>
+      <id>test_read_lsb</id>
+      <iteration>0</iteration>
+      <duration>0.000081</duration>
+      <description>test_read_lsb</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_hidden_text.c:25</fn>
+      <id>test_extract_byte</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_extract_byte</description>
+      <message>Assertion &apos;result == expected&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_hidden_text.c:34</fn>
+      <id>test_read_uint32</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_read_uint32</description>
+      <message>Assertion &apos;result == expected&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_hidden_text.c:42</fn>
+      <id>test_read_pixel_offset</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_read_pixel_offset</description>
+      <message>Assertion &apos;result == 54&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_hidden_text.c:66</fn>
+      <id>test_read_msg</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_read_msg</description>
+      <message>Assertion &apos;!strcmp(expected[i], str)&apos; failed</message>
+    </test>
+  </suite>
+  <duration>0.013706</duration>
+</testsuites>

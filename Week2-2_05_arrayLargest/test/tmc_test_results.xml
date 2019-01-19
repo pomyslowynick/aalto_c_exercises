@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:15</datetime>
+  <suite>
+    <title>arrayLargest</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:38</fn>
+      <id>test_largest_num</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_largest_num</description>
+      <message>[Task 2.4] largest_num() called with array { 91 80 27 7 7 81 -1 }. You returned: 0. Should have been: 91.</message>
+    </test>
+  </suite>
+  <duration>0.001260</duration>
+</testsuites>

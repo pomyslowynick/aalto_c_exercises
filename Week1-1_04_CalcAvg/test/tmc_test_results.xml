@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:08</datetime>
+  <suite>
+    <title>calculateAverage</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:25</fn>
+      <id>test_average</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_average</description>
+      <message>When giving input &quot;1 2 3 4 5 -1&quot;, your output:
+
+Reference output:
+3.00
+
+Reason: output correct until position: 1, line: 1, but shorter than expected. Next character should be &apos;3&apos;
+
+</message>
+    </test>
+  </suite>
+  <duration>0.002437</duration>
+</testsuites>

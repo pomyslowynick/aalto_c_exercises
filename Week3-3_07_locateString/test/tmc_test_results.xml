@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:23</datetime>
+  <suite>
+    <title>LocateString</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:21</fn>
+      <id>test_find_string</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_find_string</description>
+      <message>[Task 5.4] Should have returned -1 for file string Wow!, file nonexistent.txt and offset 0. You returned 0.</message>
+    </test>
+  </suite>
+  <duration>0.001188</duration>
+</testsuites>

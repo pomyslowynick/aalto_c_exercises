@@ -1,0 +1,3 @@
+[test] [test_print_gen_with_doublepointers] print_gen
+[test] [test_print_gen_with_characters] print_gen
+[test] [test_print_gen_with_integers] print_gen

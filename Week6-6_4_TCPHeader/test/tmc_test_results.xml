@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:46</datetime>
+  <suite>
+    <title>TCPheader</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:35</fn>
+      <id>test_parsePacket</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_parsePacket</description>
+      <message>[Task 4.4.a] Incorrect getSourcePort(). You 0, reference: 4660.
+Header: 12 34 45 67 aa bb cc dd ee ff aa bb b1 5c 08 00 12 34 00 00 .</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:65</fn>
+      <id>test_setPacket</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_setPacket</description>
+      <message>[TCPheader] When setting source port to 0x1234, byte 0 should be 0x12 (you: 0), byte 1 should be 0x35 (you: 0)</message>
+    </test>
+  </suite>
+  <duration>0.001945</duration>
+</testsuites>

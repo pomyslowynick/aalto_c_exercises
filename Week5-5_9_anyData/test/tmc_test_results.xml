@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:36</datetime>
+  <suite>
+    <title>anyData</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:57</fn>
+      <id>test_set</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_set</description>
+      <message>After setByte(-41), type should be BYTE, you had UNDEF</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:94</fn>
+      <id>test_print</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_print</description>
+      <message>After setByte(4) should output &apos;B:4&apos;, you printed: &apos;&apos;</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:128</fn>
+      <id>test_sum</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum</description>
+      <message>calcSum returned unspecified type</message>
+    </test>
+  </suite>
+  <duration>0.002818</duration>
+</testsuites>

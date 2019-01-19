@@ -1,0 +1,3 @@
+[test] [test_inv_shift_row_with_rows_0123] stateblock-invshift
+[test] [test_shift_row_with_rows_0123] stateblock-shift
+[test] [test_read_block_with_exactly_128_bits] stateblock-read

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:39</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="error">
+      <path>.</path>
+      <fn>check_intrusive_list.c:81</fn>
+      <id>test_create_intrusive_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_create_intrusive_list</description>
+      <message>Test timeout expired</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:95</fn>
+      <id>test_add_node_to_empty_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_node_to_empty_list</description>
+      <message>Should be: list-&gt;header.next != &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:107</fn>
+      <id>test_add_node_to_list_with_one_node</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_node_to_list_with_one_node</description>
+      <message>Should be: list-&gt;header.next-&gt;next != &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:119</fn>
+      <id>test_add_node_to_list_with_two_nodes</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_node_to_list_with_two_nodes</description>
+      <message>Should be: list-&gt;header.next-&gt;next-&gt;next != &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:132</fn>
+      <id>test_remove_only_node_from_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_remove_only_node_from_list</description>
+      <message>Should be: list-&gt;header.next == &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:144</fn>
+      <id>test_remove_first_node_in_two_elemented_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_remove_first_node_in_two_elemented_list</description>
+      <message>Should be: list-&gt;header.next-&gt;next == &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:156</fn>
+      <id>test_remove_second_node_from_two_elemented_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_remove_second_node_from_two_elemented_list</description>
+      <message>Should be: list-&gt;header.next-&gt;next == &amp;amp;list-&gt;header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:171</fn>
+      <id>test_add_int_to_empty_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_int_to_empty_list</description>
+      <message>Value of the first element after inserting 10 to empty list should be 10</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:181</fn>
+      <id>test_add_int_to_int_list_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_int_to_int_list_with_one_element</description>
+      <message>The first element should be the newly added 12, when adding to list with 9</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:193</fn>
+      <id>test_add_int_to_int_list_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_int_to_int_list_with_two_elements</description>
+      <message>The first element should be the newly added 8 when adding to list with 9 10</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:204</fn>
+      <id>test_removing_only_int</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_removing_only_int</description>
+      <message>There next pointer of the header should again point to the header</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:214</fn>
+      <id>test_removing_from_two_element_int_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_removing_from_two_element_int_list</description>
+      <message>When deleting the first node from list 1 2, the first value should be 2</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_intrusive_list.c:231</fn>
+      <id>test_removing_int_not_found</id>
+      <iteration>0</iteration>
+      <duration>0.008255</duration>
+      <description>test_removing_int_not_found</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:244</fn>
+      <id>test_add_numeric_to_empty_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_numeric_to_empty_list</description>
+      <message>The value of the added numeric should be 10 as integer, when 10 inserted as integer</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:269</fn>
+      <id>test_add_numeric_to_list_with_two_values</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_add_numeric_to_list_with_two_values</description>
+      <message>The int value of the first element should be 10 when adding to list with 1 2.2</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:279</fn>
+      <id>test_sum_ints_with_zero_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_ints_with_zero_elements</description>
+      <message>Assertion &apos;sum_ints(list) == 0&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:287</fn>
+      <id>test_sum_ints_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_ints_with_one_element</description>
+      <message>Summing ints in list with only int value should return the value of the numeric</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:295</fn>
+      <id>test_sum_ints_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_ints_with_two_elements</description>
+      <message>Summing list with two int values 3 and 4 should equal 7</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:311</fn>
+      <id>test_sum_doubles_with_zero_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_doubles_with_zero_elements</description>
+      <message>Assertion &apos;sum_doubles(list) == 0&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:318</fn>
+      <id>test_sum_doubles_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_doubles_with_one_element</description>
+      <message>Assertion &apos;sum_doubles(list) == 2.5&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_intrusive_list.c:326</fn>
+      <id>test_sum_doubles_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sum_doubles_with_two_elements</description>
+      <message>Summing list with two int values 3 and 4 should equal 0</message>
+    </test>
+  </suite>
+  <duration>5.977131</duration>
+</testsuites>

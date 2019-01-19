@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:22</datetime>
+  <suite>
+    <title>FunWithFiles tests</title>
+    <test result="error">
+      <path>.</path>
+      <fn>test_fun_with_files.c:17</fn>
+      <id>test_appending_hello_world_to_an_empty_file</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_appending_hello_world_to_an_empty_file</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_fun_with_files.c:57</fn>
+      <id>test_appending_to_file_that_already_says_hello</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_appending_to_file_that_already_says_hello</description>
+      <message>The file shoul contain Hello world! when appending &quot; world!&quot; to a file containing &quot;Hello&quot;</message>
+    </test>
+  </suite>
+  <duration>0.387584</duration>
+</testsuites>

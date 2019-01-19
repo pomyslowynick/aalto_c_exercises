@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:14</datetime>
+  <suite>
+    <title>dswap</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:20</fn>
+      <id>test_number_swap</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_number_swap</description>
+      <message>swap(a, b) called with *a = 17766.46 and *b = 1267.06. Values after call are: a: 17766.46 (should be 1267.06), b: 1267.06 (should be 17766.46)</message>
+    </test>
+  </suite>
+  <duration>0.001260</duration>
+</testsuites>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:12</datetime>
+  <suite>
+    <title>arraySmallest</title>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:34</fn>
+      <id>test_smallest_num</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_smallest_num</description>
+      <message>smallest_number() called with array { 17 78 63 81 91 99 55 0 }. You returned: 0. Should have been: 17.</message>
+    </test>
+  </suite>
+  <duration>0.001309</duration>
+</testsuites>

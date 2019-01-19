@@ -1,0 +1,4 @@
+[test] [average_works_with_four_arguments] davg
+[test] [average_works_when_it_has_negative_arguments] davg
+[test] [average_works_for_two_positive_numbers] davg
+[test] [average_works_for_one_number] davg

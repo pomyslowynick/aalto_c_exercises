@@ -1,0 +1,2 @@
+This test has several characters (total 58)
+and two lines

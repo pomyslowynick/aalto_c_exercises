@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:24</datetime>
+  <suite>
+    <title>LinkedList</title>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:49</fn>
+      <id>test_insertion_empty_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_empty_list</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:61</fn>
+      <id>test_insertion_to_null_position_of_list_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_to_null_position_of_list_with_one_element</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:72</fn>
+      <id>test_insertion_to_beginning_of_list_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_to_beginning_of_list_with_one_element</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:85</fn>
+      <id>test_insertion_to_null_position_of_list_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_to_null_position_of_list_with_two_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:97</fn>
+      <id>test_insertion_to_beginning_of_list_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_to_beginning_of_list_with_two_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:109</fn>
+      <id>test_insertion_to_end_of_list_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_insertion_to_end_of_list_with_two_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_linkedlist.c:291</fn>
+      <id>test_printing_with_empty_list</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_printing_with_empty_list</description>
+      <message>Assertion &apos;exit_code == 1&apos; failed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_linkedlist.c:307</fn>
+      <id>test_printing_list_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_printing_list_with_one_element</description>
+      <message>The first character should be the value of the only element.</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_linkedlist.c:328</fn>
+      <id>test_printing_list_with_two_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_printing_list_with_two_elements</description>
+      <message>The first character should be the value of the first element</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:127</fn>
+      <id>test_deletion_from_list_with_one_element</id>
+      <iteration>0</iteration>
+      <duration>0.000042</duration>
+      <description>test_deletion_from_list_with_one_element</description>
+      <message>Passed</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:132</fn>
+      <id>test_deletion_of_first_element_in_list_with_three_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_deletion_of_first_element_in_list_with_three_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:144</fn>
+      <id>test_deletion_of_middle_element_from_list_with_three_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_deletion_of_middle_element_from_list_with_three_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:156</fn>
+      <id>test_deletion_of_tail_element_from_list_with_three_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_deletion_of_tail_element_from_list_with_three_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="error">
+      <path>.</path>
+      <fn>check_linkedlist.c:168</fn>
+      <id>test_deletion_with_null_element_in_list_with_three_elements</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_deletion_with_null_element_in_list_with_three_elements</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:180</fn>
+      <id>test_sorting_with_empty_list</id>
+      <iteration>0</iteration>
+      <duration>0.000025</duration>
+      <description>test_sorting_with_empty_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:192</fn>
+      <id>test_sorting_with_list_of_one_element</id>
+      <iteration>0</iteration>
+      <duration>0.000060</duration>
+      <description>test_sorting_with_list_of_one_element</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:202</fn>
+      <id>test_sorting_with_list_of_two_elements_in_correct_order</id>
+      <iteration>0</iteration>
+      <duration>0.000084</duration>
+      <description>test_sorting_with_list_of_two_elements_in_correct_order</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_linkedlist.c:211</fn>
+      <id>test_sorting_with_list_of_two_elements_in_reverse_order</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_sorting_with_list_of_two_elements_in_reverse_order</description>
+      <message>The second element should now be the first element.</message>
+    </test>
+  </suite>
+  <duration>3.886300</duration>
+</testsuites>

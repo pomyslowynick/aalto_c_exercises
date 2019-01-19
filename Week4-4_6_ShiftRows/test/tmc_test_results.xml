@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2019-01-11 12:22:31</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="error">
+      <path>.</path>
+      <fn>check_aes.c:85</fn>
+      <id>test_read_block_with_exactly_128_bits</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_read_block_with_exactly_128_bits</description>
+      <message>Received signal 11 (Segmentation fault)</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_aes.c:28</fn>
+      <id>test_shift_row_with_rows_0123</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_shift_row_with_rows_0123</description>
+      <message>The st[1][0] should be 1</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>check_aes.c:65</fn>
+      <id>test_inv_shift_row_with_rows_0123</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_inv_shift_row_with_rows_0123</description>
+      <message>The st[1][0] should be 3</message>
+    </test>
+  </suite>
+  <duration>0.379877</duration>
+</testsuites>

@@ -1,0 +1,3 @@
+[test] [test_array_idx] ArrayToolArrayIdx
+[test] [test_make_array] ArrayToolMakeArray
+[test] [test_check] arrayToolCheckMacro
