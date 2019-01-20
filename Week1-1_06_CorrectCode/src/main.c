@@ -8,7 +8,7 @@
 /* You may modify the main function as you wish. It is not tested by the tmc server*/
 
 int main() {
-    int number = 7;
+    int number = 23;
     
     printf("Testing if number %d is a prime number.\n", number);
     
