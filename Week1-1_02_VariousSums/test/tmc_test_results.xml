@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
 <testsuites xmlns="http://check.sourceforge.net/ns">
-  <datetime>2019-01-12 14:51:15</datetime>
+  <datetime>2019-01-19 12:29:29</datetime>
   <suite>
     <title>Test</title>
     <test result="success">
@@ -9,7 +9,7 @@
       <fn>test_mathfuncs.c:14</fn>
       <id>test_sum_of_absolutes</id>
       <iteration>0</iteration>
-      <duration>0.000135</duration>
+      <duration>0.000067</duration>
       <description>test_sum_of_absolutes</description>
       <message>Passed</message>
     </test>
@@ -18,7 +18,7 @@
       <fn>test_mathfuncs.c:24</fn>
       <id>test_sum_of_rounded</id>
       <iteration>0</iteration>
-      <duration>0.000123</duration>
+      <duration>0.000092</duration>
       <description>test_sum_of_rounded</description>
       <message>Passed</message>
     </test>
@@ -27,10 +27,10 @@
       <fn>test_mathfuncs.c:33</fn>
       <id>test_sum_of_characters</id>
       <iteration>0</iteration>
-      <duration>0.000070</duration>
+      <duration>0.000181</duration>
       <description>test_sum_of_characters</description>
       <message>Passed</message>
     </test>
   </suite>
-  <duration>0.005362</duration>
+  <duration>0.175641</duration>
 </testsuites>
