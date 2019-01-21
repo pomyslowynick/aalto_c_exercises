@@ -1,25 +1,18 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
 <testsuites xmlns="http://check.sourceforge.net/ns">
-  <datetime>2019-01-11 12:22:12</datetime>
+  <datetime>2019-01-21 18:02:44</datetime>
   <suite>
     <title>capslock</title>
-    <test result="failure">
+    <test result="success">
       <path>.</path>
-      <fn>test_source.c:25</fn>
+      <fn>test_source.c:41</fn>
       <id>test_caps</id>
       <iteration>0</iteration>
-      <duration>-1.000000</duration>
+      <duration>0.011813</duration>
       <description>test_caps</description>
-      <message>When giving input &quot;abcdefghij&quot;, your output:
-
-Reference output:
-ABCDEFGHIJ
-
-Reason: output correct until position: 1, line: 1, but shorter than expected. Next character should be &apos;A&apos;
-
-</message>
+      <message>Passed</message>
     </test>
   </suite>
-  <duration>0.005105</duration>
+  <duration>0.014215</duration>
 </testsuites>
