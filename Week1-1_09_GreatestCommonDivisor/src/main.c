@@ -21,6 +21,6 @@ b) Write an iterative version of the algorithm as function gcd_iterative.
 
 {
 
-      printf("Greatest common divisor of 64 and 8 is 8, function returned %d\n", gcd (64,8) );
+      printf("Greatest common divisor of 256 and 16 is 16, function returned %d\n", gcd (16,24) );
 	return 0;
 }

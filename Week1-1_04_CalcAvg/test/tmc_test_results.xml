@@ -1,26 +1,18 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
 <testsuites xmlns="http://check.sourceforge.net/ns">
-  <datetime>2019-01-19 13:49:52</datetime>
+  <datetime>2019-01-20 20:00:53</datetime>
   <suite>
     <title>calculateAverage</title>
-    <test result="failure">
+    <test result="success">
       <path>.</path>
       <fn>test_source.c:25</fn>
       <id>test_average</id>
       <iteration>0</iteration>
-      <duration>-1.000000</duration>
+      <duration>0.000581</duration>
       <description>test_average</description>
-      <message>When giving input &quot;1 2 3 4 5 -1&quot;, your output:
-6556.000000
-
-Reference output:
-3.00
-
-Reason: position: 1, line: 1, your output: &apos;6&apos; , expected: &apos;3&apos;
-
-</message>
+      <message>Passed</message>
     </test>
   </suite>
-  <duration>0.001518</duration>
+  <duration>0.014758</duration>
 </testsuites>
